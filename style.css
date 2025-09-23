@@ -1,0 +1,434 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, serif;
+  background-color: #f2f0e9;
+}
+
+header h1{
+  font-size: 20px;
+  font-family: Arial, Helvetica, serif;
+  align-self: center;
+}
+
+header {
+  background-color: #992c25;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #f2f0e9;
+  font-size: 20px;
+}
+
+.coluna-central {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.logo {
+  max-width: 300px;
+  height: auto;
+  margin-right: 150px;
+}
+
+.menu {
+  background-color: #f2f0e9;
+  padding: 10px 0px 5px 0px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.links a {
+  text-decoration: none;
+  color: #992c25;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0 8px;
+}
+
+a:hover {
+  color: gray;
+}
+
+.imagem-principal {
+  max-width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.imagem-principal img {
+  width: 90%;
+  height: auto;
+  max-width: 100%;
+  max-height: 900px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.bio-card {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  background-color: #f2f0e9;
+}
+
+.card {
+  max-width: 800px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.foto-dra {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #992c25;
+  margin-bottom: 20px;
+}
+
+.card p {
+  text-align: justify;
+  color: #992c25;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 10px 50px;
+  text-indent: 31px;
+}
+
+.card p:first-of-type {
+  margin-top: 40px;
+}
+
+#icone img {
+  width: 40px;
+}
+
+.servicos {
+  margin-top: -40px;
+  background-color: #992c25;
+  padding: 5px;
+}
+
+.titulo-servicos {
+  padding-top: 80px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #f2f0e9;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.container-servicos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+
+.servico {
+  width: 250px;
+  padding-bottom: 50px;
+}
+
+.servico img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.servico h3 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #f2f0e9;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.servico p {
+  text-align: justify;
+  hyphens: auto;
+  font-size: 18px;
+  color: #f2f0e9;
+  margin: 10px 0px;
+  line-height: 1.5;
+  text-indent: 15px;
+}
+
+.titulo-depoimentos {
+  padding-top: 50px;
+  font-size: 30px;
+  color: #992c25;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+.rodape {
+  background-color: #992c25;
+  padding: 80px 40px;
+  margin-top: 40px;
+  color: #f2f0e9;
+}
+
+.rodape-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.rodape-esquerda,
+.rodape-direita {
+  flex: 1 auto 1;
+}
+
+.rodape-esquerda h4,
+.rodape-direita h4 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.rodape-esquerda img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.rodape-esquerda p {
+  text-align: center;
+}
+
+.rodape-esquerda p:first-of-type {
+  padding-top: 20px;
+}
+
+.mapa {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.rodape p {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.redes-sociais img {
+  margin: 20px 10px;
+  width: 50px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-------------------------------------------------------*/
+
+
+.whatsapp-float img {
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    max-width: 200px;
+    margin-right: 50px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card p {
+    margin: 10px 20px;
+    font-size: 18px;
+  }
+
+  .container-servicos {
+    gap: 60px;
+  }
+
+  .servico {
+    width: 90%;
+  }
+
+  .redes-sociais img {
+    width: 60px;
+  }
+
+  .links a {
+  text-decoration: none;
+  }
+  
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .coluna-central {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 0 0 20px 0;
+    max-width: 180px;
+  }
+
+  .links {
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+  }
+
+  .imagem-principal img {
+    width: 100%;
+  }
+
+  .bio-card {
+    padding: 0 10px;
+  }
+
+  .card p {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .container-servicos {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .servico {
+    width: 90%;
+  }
+
+  .rodape-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rodape-esquerda img,
+  .mapa {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .redes-sociais img {
+    width: 50px;
+    margin: 10px;
+  }
+
+  .titulo-servicos,
+  .titulo-depoimentos {
+    font-size: 24px;
+  }
+
+  .imagem-principal {
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagem-principal img {
+    content: url(img/fotoPrincipalCelular3.jpg);
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* trocado de cover para contain */
+    display: block;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  .links a {
+    text-decoration: none;
+    font-size: 18px;
+    
+  }
+
+  .card h2 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 15px;
+  }
+
+  .servico h3 {
+    font-size: 20px;
+  }
+
+  .servico p {
+    font-size: 16px;
+  }
+
+  .rodape p {
+    font-size: 16px;
+  }
+
+  .rodape-esquerda h4,
+  .rodape-direita h4 {
+    font-size: 22px;
+  }
+
+}   
+
+

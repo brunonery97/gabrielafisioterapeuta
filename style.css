@@ -266,6 +266,10 @@ a:hover {
   align-items: center;
 }
 
+.telefone {
+  text-decoration: none;
+  color: #f2f0e9;
+}
 /*-------------------------------------------------------*/
 
 
@@ -430,5 +434,6 @@ a:hover {
   }
 
 }   
+
 
 

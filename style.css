@@ -15,7 +15,7 @@ body {
 }
 
 header h1{
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, serif;
   align-self: center;
 }
@@ -59,7 +59,7 @@ header {
   text-decoration: none;
   color: #992c25;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 1.2em;
   margin: 0 8px;
 }
 
@@ -269,7 +269,9 @@ a:hover {
 .telefone {
   text-decoration: none;
   color: #f2f0e9;
+  font-size: 0.8em;
 }
+
 /*-------------------------------------------------------*/
 
 

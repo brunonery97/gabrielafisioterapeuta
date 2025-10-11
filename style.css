@@ -42,6 +42,8 @@ header {
   max-width: 230px;
   height: auto;
   margin-right: 150px;
+  margin-left: 100px;
+  
 }
 
 .menu {
@@ -61,6 +63,10 @@ header {
   font-weight: bold;
   font-size: 1.2em;
   margin: 0 8px;
+}
+
+#primeiro {
+  margin-left: 10px;
 }
 
 a:hover {
@@ -436,6 +442,7 @@ a:hover {
   }
 
 }   
+
 
 
 
